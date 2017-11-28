@@ -2,7 +2,7 @@ var webpack = require('webpack');
 var path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const VENDOR_LIBS = [];
+const VENDOR_LIBS = ['react', 'react-dom'];
 
 module.exports = {
   entry: {
